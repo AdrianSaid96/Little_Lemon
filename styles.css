@@ -1,0 +1,345 @@
+html, body, div  {
+	margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    margin: 3% 25%;
+
+}
+ main {
+    background-color: rgba(108, 165, 42, 0.253);
+    padding-bottom: 20%;
+ }
+
+#lemon {
+    height: 8%;
+    width: 80%;
+    margin-left: 2%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-style:solid;
+    
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 8.65rem;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgba(255, 255, 38, 0.757);
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 11rem);
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .grid1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 0% 2% 20%;
+    margin-bottom: 5%;
+    
+
+    
+   border: 1px solid transparent;
+   color: white;
+
+
+  }
+
+
+  .grid1 h1 {
+    font-size: 250%;
+    padding-left: 0;
+    padding-right: 7%;
+    padding-top: 3%;
+    text-align: center;
+  }
+
+  .grid1 p {
+    font-size: 180%;
+    padding-left: 14%;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .grid1 article:hover {
+    transform: scale(1.05);
+    transition: 1s;
+
+  }
+
+  .grid1 article:hover .h11 {
+    font-size: 400%;
+    transition: 1s;
+    margin-bottom: 0;
+  }
+
+  .grid2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    margin-top: 30%;
+    padding: 15% 0 0 18%;
+    width: 70%;
+
+
+  }
+
+  
+
+  
+
+  .grid2 article {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  
+  .grid2 h1 {
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  .grid2 p {
+    text-align: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+    display: none;
+    
+  }
+
+  .grid2 article:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    filter: brightness(60%);
+    filter: blur(20%);
+
+  }
+
+  .grid2 article:hover #heading1 {
+    padding-top:0;
+    padding-bottom: 50%;
+    transition: 1s;
+    filter: brightness(500%);
+  }
+  
+
+  .grid2 article:hover #menu{
+    transform: scale(1.1);
+    display: block;
+    color: white;
+    transition: 3s;
+
+  }
+  .grid3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    margin-top: 30%;
+    padding: 15% 0 20% 15%;
+    width: 70%;
+
+
+  }
+
+
+
+  .grid3 img {
+    width: 70%;
+    height: 70%;
+    margin-left: 5%;
+    padding-left: 8%;
+  }
+
+  .grid3 article {
+    background-color: #333;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .grid3 h1 {
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  .grid3 p {
+    text-align: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+    display: none;
+    
+  }
+
+
+  .grid3 article:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    filter: brightness(60%);
+    filter: blur(20%);
+
+  }
+
+  .grid3 article:hover #heading2 {
+    padding-top:0;
+    padding-bottom: 50%;
+    transition: 1s;
+    filter: brightness(500%);
+  }
+  
+
+  .grid3 article:hover #menu2{
+    transform: scale(1.1);
+    display: block;
+    color: white;
+    transition: 3s;
+  }
+
+
+  .grid4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+   
+    margin-top: 30%;
+    padding: 15% 0 20% 11%;
+    width: 70%;
+
+
+  }
+
+  .grid4 img {
+    width: 70%;
+    height: 70%;
+    margin-left: 5%;
+    padding-left: 8%;
+  }
+
+  .grid4 article {
+    background-color: #333;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .grid4 h1 {
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  .grid4 p {
+    text-align: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+    display: none;
+    
+  }
+
+  .grid4 article:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    filter: brightness(60%);
+    filter: blur(20%);
+
+  }
+
+  .grid4 article:hover #heading3 {
+    padding-top:0;
+    padding-bottom: 50%;
+    transition: 1s;
+    filter: brightness(500%);
+  }
+  
+
+  .grid4 article:hover #menu3{
+    transform: scale(1.1);
+    display: block;
+    color: white;
+    transition: 3s;
+  }
+
+
+
+  footer {
+    background-color: #333;
+    color: white;
+   width: 100%;
+   height: 200px;
+   }
+
+   
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 11rem);
+    text-align: left;
+
+    margin-bottom: 0;
+    height: 15%;
+
+    
+}
+
+div img {
+    height: 17%;
+    width: 6%;
+    margin-left: 120%;
+    padding: 0%;
+    margin-top: 30%;
+    margin-bottom: 0;
+
+   
+}
+
+div p {
+
+  
+
+    margin-left:30%;
+    margin-top: 30%;
+    margin-bottom: 0;
+    font-style: italic;
+
+}
+
+
+
